@@ -1,0 +1,121 @@
+.Container{
+    .nav-campain{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid white;
+        .nav-header{
+            display: flex;
+            justify-content: space-between;
+            .nav-search{
+                border-radius: 5px;
+                display: flex;
+                border: none;
+                margin: 0.3rem; 
+                .search-campain {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    margin-right: 10px;
+                    border: 1px solid #999;
+                    border-radius: 5px;
+                    gap : 0 1rem;
+                    margin-right: 50px;
+                    &:hover {
+                        border: 1px solid black;
+                    }
+
+                    .search-icon {
+                        display: flex;
+                        margin-left: 0.2rem;
+                    }
+                    .search-input{
+                        display: flex;
+                        input {
+                            outline: none;
+                            border: none;
+                        }
+                        input::placeholder {
+                            padding-left: 0.5rem;
+                        }
+    
+    
+                    }
+                }
+                .creator-campain {
+                    display: flex;
+                    width: 217px;
+                    margin-right: 50px;
+                    .select-creator{    
+                        border-radius: 5px;
+                        color: #999;
+                        padding: 5px;
+                        width: 100%;
+                        &:hover{
+                            color: black;
+                        }
+    
+                    }
+                }
+                .used-campain{
+                    display: flex;
+                    margin-left: 10px;
+                    margin-right: 50px;
+                    .select-used{
+                        border-radius: 5px;
+                        color: #999;
+                        padding: 5px;
+                        width: 217px;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                }
+                .time-campain{
+                    display: flex;
+                    justify-content: space-between;
+                    border: 1px solid #999;
+                    border-radius: 5px;
+                    width: 217px;
+                    margin-left: 10px;
+                    padding: 5px;
+                    &:hover{
+                        color: black;
+                        border: 1px solid black;
+                    }
+                    .icon-time{
+                        display: flex;
+                        align-items: center;
+    
+                    }
+                    .time-check{
+                        display: flex;
+                        width: 100%;
+                        .select-time{
+                            width: 100%;
+                            border: none;
+                            outline: none;
+                            color: #999;
+                            padding: 5px;
+                            &:hover{
+                                color: black;
+                            }
+                        }
+                        
+                    }
+                }
+        }          
+        }
+        .btn-campain {
+            display: flex;
+            margin: 7px;
+            width: 100px;
+            .btn-add {
+                border-radius: 5px;
+                padding: 5px;
+                background-color: #233f80;
+                color: white;
+            }
+
+        }
+    }
+}

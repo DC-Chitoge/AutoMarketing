@@ -1,0 +1,77 @@
+.nav-search{
+    display: flex;
+    justify-content: space-between;   
+    border: 1px solid black;   
+    .nav-search-oop{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0.5rem;
+        gap: 1rem;
+        .search-oop{
+            display:flex;
+            gap: 1rem;
+            padding: 0.5rem;
+            justify-content:flex-start ;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 5px;
+            gap: 0.5rem;
+            &:hover{
+                border-color: blue;
+            }        
+            .input-search{
+                display: flex;
+                align-items: center;
+                gap: 0 1rem;
+                &:hover {
+                    background-color: blue;
+                }
+                .input-search-oop{
+                    border: none;
+                    outline: none;
+                }
+            }
+            .icon-search{
+                display: flex;
+                
+
+            }
+        }
+        .state-oop{
+            display: flex;
+            gap: 0.5rem;
+            padding: 0.5rem;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-left:50px;
+            .select-state{
+                outline: none;
+                border: none;
+                width: auto;
+            }
+
+        }
+        .creator-oop{
+            display: flex;
+            gap: 0.5rem;
+            padding: 0.5rem;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-left:50px;
+            .select-creator{
+                outline: none;
+                border: none;
+                width: auto;
+            }
+
+        }
+        .startTime-oop {
+            display: flex;
+            .datePicker {
+                display: flex;
+            }
+        }
+    
+
+    }
+}
